@@ -1,0 +1,44 @@
+body > div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    margin: 20px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, auto);
+}
+
+#container > div {
+    border: .07em solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+
+}
+
+#newContainer {
+    display: grid;
+    grid-gap: .1em;
+}
+
+#newBoxes {
+    border: .07em solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
